@@ -1,0 +1,17 @@
+prompt_id,variant,run_index,files_produced,terraform_fmt_clean,terraform_validate_clean,terraform_plan_clean,tfsec_findings_count,iam_wildcard_count,hardcoded_arn_count,default_tags_present
+01,default,1,1,true,true,false,9,3,3,false
+01,default,2,1,true,true,false,9,3,2,false
+01,skill,1,15,true,true,true,0,0,0,true
+01,skill,2,14,true,true,true,0,0,0,true
+02,default,1,1,true,true,true,4,2,2,false
+02,default,2,2,true,true,false,4,2,1,false
+02,skill,1,8,true,true,true,0,0,0,true
+02,skill,2,8,true,true,true,0,0,0,true
+03,default,1,1,true,true,true,5,9,4,false
+03,default,2,1,true,true,false,5,8,4,false
+03,skill,1,7,true,true,true,0,0,0,true
+03,skill,2,7,true,true,true,0,0,0,true
+04,default,1,2,true,true,false,8,4,4,false
+04,default,2,1,true,true,false,8,3,4,false
+04,skill,1,16,true,true,true,0,0,0,true
+04,skill,2,16,true,true,true,0,0,0,true

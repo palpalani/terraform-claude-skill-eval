@@ -1,0 +1,16 @@
+{
+  "name": "terraform-claude-skill-eval",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Evaluation harness comparing default Claude Code output to Claude Code with the terraform-claude-skill installed, on 4 realistic AWS Terraform prompts.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "eval": "bin/run-eval.sh",
+    "aggregate": "node bin/aggregate.mjs",
+    "clean": "find runs -mindepth 1 -maxdepth 1 -type d ! -name 'sample-run' -exec rm -rf {} +"
+  }
+}

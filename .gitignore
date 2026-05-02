@@ -1,0 +1,16 @@
+node_modules/
+.DS_Store
+*.log
+
+# Real eval runs are local — keep the sample run + the .gitkeep marker.
+runs/*
+!runs/.gitkeep
+!runs/sample-run/
+!runs/sample-run/**
+
+# Terraform plan / state debris from the harness
+**/.terraform/
+**/.terraform.lock.hcl
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/*.tfplan
